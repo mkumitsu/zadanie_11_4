@@ -12,7 +12,7 @@ var samsungS6 = new Phone("Samsung Galaxy S6", 1000, "golden", "5''");
 var onePlusOne = new Phone("One Plus One", 600, "black", "5.5''");
 
 Phone.prototype.applyDiscount = function(discount) {
-    this.price = this.price -= discount;
+    this.price -= discount;
 }
 
 iPhone6S.printInfo();
